@@ -1,0 +1,1 @@
+Measured validation-only classical baseline evidence from the preparation environment, not the final Python 3.12 environment. Regenerate with --mode baseline. Do not present these as complete lab results; no neural or held-out evaluation was performed.
