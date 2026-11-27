@@ -214,4 +214,4 @@ Future improvements could include larger real-world datasets,
 confidence calibration, additional model comparisons and
 continuous performance monitoring.
 
-**Additional documentation:** See [SETUP_AND_SUBMISSION.md](SETUP_AND_SUBMISSION.md) for detailed setup, troubleshooting and submission procedures, and [REPORT.md](REPORT.md) for the support-lead report. The setup guide contains earlier status notes; use the recorded final results above for current metrics.
+**Additional documentation:** See [SETUP_AND_SUBMISSION.md](SETUP_AND_SUBMISSION.md) for detailed setup, troubleshooting and submission procedures, and [REPORT.md](REPORT.md) for the support-lead report.
