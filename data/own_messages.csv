@@ -1,1 +1,41 @@
 text,label
+Why is there a second debit on my bank statement?,billing
+My discount never came off the total.,billing
+I cancelled my day pass before using it but the money has not been returned.,billing
+Can I get an itemized reciept for last Tuesday?,billing
+The amount taken from my card is higher than the price displayed when I started the rental.,billing
+Still waiting for my refund.,billing
+"I used a prepaid pass, yet my credit card shows a separate payment for the same journey.",billing
+Is the temporary deposit supposed to stay pending for a whole week?,billing
+Please explain the extra overtime fee on my latest invoice.,billing
+The payment went thru twice and I only rented one bicycle.,billing
+The left pedal keeps slipping.,bike_fault
+Every time I turn the handlebars there is a clicking sound near the front wheel.,bike_fault
+The rear tyre was nearly flat when I picked up the bicycle.,bike_fault
+The seat wont stay at the height I set.,bike_fault
+One of the brake levers feels loose and does not work properly.,bike_fault
+Chain came off halfway home.,bike_fault
+The electric assist stopped working even though the display showed plenty of battery remaining.,bike_fault
+There is a broken spoke in the back wheel.,bike_fault
+The gear shifter is jammed between two settings.,bike_fault
+The front lite does not come on after dark.,bike_fault
+No empty spaces at the waterfront dock.,station
+The map showed three available bicycles at the library but there were none when I arrived.,station
+The rental terminal screen is completely blank.,station
+Why has the station outside the grocery store disappeared from the map?,station
+The docking slot flashes red whenever I try to return a bicycle.,station
+All the docks here are ocupied.,station
+Could you tell me whether the pickup point near the community centre is temporarily closed for construction?,station
+The kiosk refuses to scan my rental code.,station
+There are six bicycles at this location but every slot shows unavailable.,station
+The station at the park is not showing up in the app.,station
+Forgot my sign-in details.,account
+I changed phones and can no longer access my member profile.,account
+The verification email has not arrived even after requesting it several times.,account
+How can I update the surname attached to my membership?,account
+My passowrd reset link takes me to an expired page.,account
+Please close my user profile permanently.,account
+I accidentally registered using my work email and would prefer to use my personal address instead.,account
+The app keeps signing me out whenever I open my profile.,account
+My membership status says inactive even though I renewed it yesterday.,account
+I cant change the phone number linked to my login.,account

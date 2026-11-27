@@ -1,4 +1,5 @@
 """Offline data and baseline checks."""
+
 import pytest
 
 from baselines import fit_baselines
@@ -6,7 +7,7 @@ from prepare import sample_train, split_tickets
 from tickets_data import LABELS
 
 
-@pytest.mark.parametrize('seed', [42, 123, 2026])
+@pytest.mark.parametrize("seed", [42, 123, 2026])
 def test_split(seed):
     train, val, test = split_tickets(seed)
     assert [len(train), len(val), len(test)] == [720, 240, 240]
@@ -28,4 +29,6 @@ def test_sample():
 def test_baseline():
     train, val, _ = split_tickets()
     models = fit_baselines(sample_train(train, 300, 42), 42)
-    assert models['tfidf'].score(val.text, val.label) > models['majority'].score(val.text, val.label)
+    assert models["tfidf"].score(val.text, val.label) > models["majority"].score(
+        val.text, val.label
+    )

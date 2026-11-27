@@ -1,0 +1,54 @@
+{
+  "n": 300,
+  "seed": 42,
+  "validation_winner": "full",
+  "published_variant": "full",
+  "validation_means": {
+    "full": 0.9041666666666668,
+    "head": 0.7125,
+    "majority": 0.2875,
+    "tfidf": 0.8652777777777777
+  },
+  "settings": {
+    "full": [
+      5e-05,
+      3
+    ],
+    "head": [
+      0.001,
+      2
+    ]
+  },
+  "scores": {
+    "majority": {
+      "test": {
+        "accuracy": 0.2916666666666667,
+        "macro_f1": 0.11290322580645161
+      },
+      "own": {
+        "accuracy": 0.25,
+        "macro_f1": 0.1
+      }
+    },
+    "tfidf": {
+      "test": {
+        "accuracy": 0.8375,
+        "macro_f1": 0.8369567098492184
+      },
+      "own": {
+        "accuracy": 0.875,
+        "macro_f1": 0.8736312706900942
+      }
+    },
+    "full": {
+      "test": {
+        "accuracy": 0.8833333333333333,
+        "macro_f1": 0.8857300536108483
+      },
+      "own": {
+        "accuracy": 0.925,
+        "macro_f1": 0.9232736572890025
+      }
+    }
+  }
+}

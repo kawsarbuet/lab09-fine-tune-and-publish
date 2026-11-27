@@ -1,4 +1,5 @@
 """Fixed split and stratified training samples."""
+
 from sklearn.model_selection import train_test_split
 
 from tickets_data import make_tickets
@@ -30,6 +31,8 @@ def sample_train(train, n, seed):
     return sample
 
 
-if __name__ == '__main__':
-    for name, frame in zip(('train', 'validation', 'test'), split_tickets(), strict=True):
+if __name__ == "__main__":
+    for name, frame in zip(
+        ("train", "validation", "test"), split_tickets(), strict=True
+    ):
         print(name, len(frame), frame.label.value_counts().to_dict())
