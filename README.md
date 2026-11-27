@@ -81,7 +81,7 @@ The matrix below shows the validation-selected winner (full fine-tuning) on the 
 
 Experiment evidence: [all runs](reports/results.csv), [summary](reports/summary.csv), [selected settings](reports/settings.json), [epoch logs](reports/epochs.csv), [tuning runs](reports/tuning.csv), [tuning epochs](reports/tuning_epochs.csv) and [final epochs](reports/final_epochs.csv).
 
-## Your own 40 messages
+## Own 40 messages
 
 The independent evaluation dataset is stored in
 `data/own_messages.csv` with the columns `text` and `label`.
