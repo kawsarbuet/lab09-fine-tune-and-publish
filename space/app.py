@@ -6,7 +6,7 @@ import gradio as gr
 import torch
 from transformers import AutoModelForSequenceClassification, AutoTokenizer
 
-MODEL_ID = "REPLACE_WITH_MODEL_ID"
+MODEL_ID = "kawsarbuet/lakeshore-ticket-sorter"
 
 
 @lru_cache(maxsize=1)
