@@ -10,18 +10,27 @@ git branch -M main
 cd lab09-fine-tune-and-publish
 git add tickets_data.py
 git commit -m "Add unchanged instructor ticket generator"
+git push
 git add .gitignore prepare.py baselines.py environment.yml requirements.txt requirements-dev.txt pyproject.toml tests/test_data.py
 git commit -m "Add stratified split, baseline models and environment"
+git push
 git add finetune.py evaluate.py run_experiments.py tests/test_model.py share.py
 git commit -m "Implement validation tuning and DistilBERT comparison"
+git push
 git add app.py publish.py space
 git commit -m "Add local demo and Hub publication workflow"
+git push
 ```
 Write your own messages, run the steps in README, update reports and links, then:
 
 ```bash
+git status
 git add data/own_messages.csv reports README.md REPORT.md space/app.py
 git commit -m "Record measured results and publish model and demo"
+git push
+git add .
+git commit -m "Complete DistilBERT fine-tuning, final evaluation and experimental reports"
+git push
 git add SETUP_AND_SUBMISSION.md
 git commit -m "Document reproducibility steps"
 git branch -M main
